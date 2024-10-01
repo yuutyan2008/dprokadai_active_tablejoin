@@ -34,7 +34,7 @@ class ExercisesController < ApplicationController
     #orders_count の降順で並べ替える
     .order('orders_count DESC')
     .first
-    @address = Address
+    
   end
 
   def exercise4 
